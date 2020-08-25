@@ -30,6 +30,10 @@ h1, h2, h3, p {
   width: 20em;
 }
 
+.link:hover, .link:focus {
+  text-decoration: underline;
+}
+
 .footer {
   background-color: var(--bg-color);
 }
@@ -84,6 +88,7 @@ nav a {
   color: var(--primary-text-color);
   opacity: 0;
   transition: opacity 50ms ease-in-out;
+  
 }
 
 .nav-toggle {
