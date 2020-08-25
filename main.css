@@ -321,9 +321,6 @@ section {
     grid-column: 3 / 4;
   }
 
-  .episodes {
-    
-  }
 }
 
 /* Footer styles */
@@ -348,6 +345,7 @@ section {
 
 .social__icons {
   margin-left: 1em;
+  width: 1.5em;
 }
 
 .first__child {
