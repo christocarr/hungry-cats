@@ -20,6 +20,7 @@ main {
 
 section {
   margin-top: 2em;
+  position: relative;
 }
 
 h1, h2, h3, p {
@@ -32,6 +33,18 @@ h1, h2, h3, p {
 
 .link:hover, .link:focus {
   text-decoration: underline;
+}
+
+.logo_bg {
+  position: absolute;
+  top: -55px;
+  left: -100px;
+  z-index: -99;
+  width: 20em;
+  height: 20em;
+  background-image: url(./logos/logo_bg.svg);
+  background-size: cover;
+  opacity: 0.3;
 }
 
 .footer {
