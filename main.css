@@ -28,6 +28,10 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+p {
+  line-height: 1.6em;
+}
+
 .img {
   width: 20em;
 }
