@@ -334,12 +334,20 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
+  position: relative;
 }
 
 .footer__logo {
   width: 4em;
 }
 
+.mouse__logo {
+  width: 5em;
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  /* z-index: -100; */
+}
 
 .social__icon_container {
   display: flex;
