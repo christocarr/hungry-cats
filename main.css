@@ -82,11 +82,7 @@ p {
 
 .header__logo-full {
   margin: auto;
-  width: 5em;
-}
-
-.header__logo-small {
-  display: none;
+  width: 6em;
 }
 
 nav {
@@ -179,6 +175,7 @@ nav a {
 
   .header__logo-full {
     grid-column: 2 / span 1;
+    width: 7em;
   }
 
   nav {
