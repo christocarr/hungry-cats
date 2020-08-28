@@ -114,7 +114,7 @@ nav a {
   color: var(--primary-text-color);
   opacity: 0;
   transition: opacity 50ms ease-in-out;
-  
+  font-size: 1.1rem;
 }
 
 .nav-toggle {
@@ -195,6 +195,7 @@ nav a {
 
   nav a {
     opacity: 1;
+    font-size: 1rem;
   }
 
   .nav__item {
